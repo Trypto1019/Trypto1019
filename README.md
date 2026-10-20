@@ -14,11 +14,12 @@ The production systems stay private because they hold real customer data. These 
 
 | Repository | What it shows | Production evidence |
 |---|---|---|
-| [`ai-operator-portfolio`](https://github.com/Trypto1019/ai-operator-portfolio) | **Flagship hub:** 8 architecture case studies, ADRs and SQL-verified production metrics | Every number is listed with its query and date range |
+| [`ai-operator-portfolio`](https://github.com/Trypto1019/ai-operator-portfolio) | **Flagship hub:** 9 architecture case studies, ADRs and SQL-verified production metrics | Every number is listed with its query and date range |
 | [`agentic-front-desk`](https://github.com/Trypto1019/agentic-front-desk) | Compliance-first voice/SMS AI agent: deterministic opt-out before the LLM, guarded tools, two-phase confirmations, verifier, warm-transfer watchdog and an eval harness | **382** sessions booked autonomously for 196 customers · **2,873** AI-handled SMS turns across **631** contacts · **182** inbound voice calls answered |
 | [`studio-os-reference`](https://github.com/Trypto1019/studio-os-reference) | Reference architecture for a full-stack booking, CRM and POS platform: durable payments, 5-minute reconciliation, webhook security, release identity | Replaced GoHighLevel + Hapana · **$97K** processed across **963** payments since cutover |
 | [`governed-agent-ops`](https://github.com/Trypto1019/governed-agent-ops) | Production AI governance: per-role budget-capped keys, eval-gated model choice, compliance-as-data, an independent verifier and human approvals | 4,486 successful dispatcher runs; 6 runs flagged suspicious and 4 jobs auto-suspended by the guardrails |
 | [`multi-llm-trading-committee`](https://github.com/Trypto1019/multi-llm-trading-committee) | 4-model LLM deliberation committee with a veto-only arbiter and deterministic risk and execution gates the models cannot override | Paper-traded engineering showcase · **378** tests |
+| [`arc-security-suite`](https://github.com/Trypto1019/arc-security-suite) | Published AI agent security scanner & runtime EDR MCP server (`npx arc-security-mcp`) + 19 OpenClaw security, sandbox, compliance & orchestration skills | **450+ skills audited** (**1,316+ findings** across **25 OWASP-mapped attack classes**, **5 coordinated vendor disclosures**) · **10,000+** community downloads |
 
 ## What I bring to an AI-forward team
 
